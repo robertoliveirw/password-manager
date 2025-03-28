@@ -1,6 +1,6 @@
-from security.crypto import encrypt_data, decrypt_data
+from security.crypto import encrypt_data
 
-def tratar_string(texto):
+def string_parse(texto):
     palavras = texto.split()
     
     aplicacao = palavras[0] if len(palavras) > 0 else ""
