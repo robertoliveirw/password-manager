@@ -1,5 +1,4 @@
 from database.database import get_connection
-from utils.string_parser import string_parse
 from security.crypto import decrypt_data
 
 # Escrever add_sql() e search_sql()
